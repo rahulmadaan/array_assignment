@@ -2,8 +2,6 @@ let assert = require('assert');
 let lib = require('../lib/arrayLibrary.js');
 let {averageNumbers} = lib;
 
-// no input
-assert.equal(averageNumbers([]),0);  
 assert.equal(averageNumbers([1]),1);  
 assert.equal(averageNumbers([0]),0);  
 
