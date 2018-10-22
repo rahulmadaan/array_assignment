@@ -9,11 +9,11 @@
 
 5. Selecting every second element - Given a list of numbers, select every second one:
 
-[1,2,5,-1,2,4,3,1] => 1,5,2,3
+   [1,2,5,-1,2,4,3,1] => 1,5,2,3
 
 6. Reverse Fibonacci - Generate a fibonacci sequence of length n in reverse order
-
-fiboReverse(8) => [13, 8, 5, 3, 2, 1, 1, 0]
+ 
+    fiboReverse(8) => [13, 8, 5, 3, 2, 1, 1, 0]
 
 7. Greatest number in a list - Given a list of numbers, find the greatest number in that sequence
 
@@ -39,7 +39,7 @@ fiboReverse(8) => [13, 8, 5, 3, 2, 1, 1, 0]
 
 14. Count how many numbers below a certain threshold in an array
 
-15. Reversing an Array - Given an array, write a function that provides a reversed version of the same array *without* changing the contents of the original array.
+15. Reversing an Array - Given an array, write a function that provides a reversed version of the same array *without*             changing the contents of the original array.
 
 16. Index Of a Number - Given an array of numbers find the first position of a specified number
 
@@ -49,7 +49,7 @@ fiboReverse(8) => [13, 8, 5, 3, 2, 1, 1, 0]
 
 19. Extract digits - Given a number, extract the digits of a number into an array:
 
-extract(20345) => [2,0,3,4,5]
+    extract(20345) => [2,0,3,4,5]
 
 20. Unique - Given an array, remove duplicate elements and return an array of only unique elements.
 
@@ -63,26 +63,26 @@ extract(20345) => [2,0,3,4,5]
 
 25. Zip - insert elements from two arrays as follows:
 
-let a = [1,2,3]
+   let a = [1,2,3]
 
-let b = [4,5,6] 
+   let b = [4,5,6] 
 
-zip(a,b) => [[1,4],[2,5],[3,6]]
+   zip(a,b) => [[1,4],[2,5],[3,6]]
 
-There must be only as many elements as the shorter array.
+   There must be only as many elements as the shorter array.
 
-let a = [1,2,3]
+   let a = [1,2,3]
 
-let b = [4,5,] 
+   let b = [4,5,] 
 
-zip(a,b) => [[1,4],[2,5]]
+   zip(a,b) => [[1,4],[2,5]]
 
 26. Rotate - creates a new array by rotating elements from the given array.
 
-rotate([1,2,3,4,5],2) => [3,4,5,1,2]
+   rotate([1,2,3,4,5],2) => [3,4,5,1,2]
 
-rotate([1,2,3,4,5],5) => [5,1,2,3,4]
+   rotate([1,2,3,4,5],5) => [5,1,2,3,4]
 
 27. Partition - Given an array of numbers, it returns a partitioned array consisting of numbers above a certain number and below a certain number
 
-partition([1,2,7,4,9,10,5],5) => [[1,2,4,5], [7,9,10]]
+   partition([1,2,7,4,9,10,5],5) => [[1,2,4,5], [7,9,10]]
