@@ -17,7 +17,7 @@ node isDecending.js
 node isSubsetTest.js
 node lowestNumberTest.js
 node mappingLengths.js
-node partitionedArrayTest.js
+node partionedArrayTest.js
 node reverseArrayTest.js
 node reverseFibonicciTest.js
 node rotateArrayTest.js

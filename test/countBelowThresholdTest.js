@@ -2,7 +2,7 @@ let assert = require('assert');
 let { countBelowThreshold } = require('../lib/arrayLibrary.js');
 
 //no input
-assert.equal(countBelowThreshold([],1),0);  
+assert.deepEqual(countBelowThreshold([],2),0);  
 
 assert.equal(countBelowThreshold([1,3],2),1);  
 assert.equal(countBelowThreshold([1,2,3,4],2),1);  
